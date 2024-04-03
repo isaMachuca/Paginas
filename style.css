@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #daf6f6; /* Color de fondo para toda la página */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+    margin-top: 50px; /* Margen superior para centrar el contenedor */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  textarea:focus {
+    border-color: #17a2b8; /* Azul turquesa */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #a3caac; /* Verde */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Verde oscuro */
+  }
+  
+  .comment {
+    background-color: #fff0d7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .spacer {
+    height: 10px; /* Altura del espacio */
+  }
+  
